@@ -1,0 +1,345 @@
+*{
+margin: 0;
+padding: 0;    
+}
+
+.header-box{
+    background: #FFFFFF;
+    min-width: 100%; 
+}
+.header{
+    padding: 20px 20px;
+}
+
+.logo{
+    font-family: 'Archivo Narrow', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.green_text{
+    color:#57AD56;
+    font-family: 'Archivo Narrow', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.btn-1{
+    border: 1px solid #E0E0E0;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 8px;   
+    border-radius: 5px;
+}
+
+.Main-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-img{
+    padding: 0 30px 0 0;
+    display: inline-flex;   
+}
+
+
+
+.search1{
+    margin:  50px 10%;
+    min-width: 80%;
+    border: 0;
+}
+
+.search{
+    margin-bottom: 5%;
+}
+
+.Main-text{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 200;
+    margin:  0 10%;
+    margin-bottom: 25px;
+}
+
+.restorani_odin_tree {
+    display: flex;
+    padding-top: 2%;
+    margin: 0 10%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.first_restoran {
+    display: inline-flex;
+    
+}
+.second_restoran {
+    display: inline-flex;
+}
+.third_restoran {
+    display: inline-flex;
+}
+.restoran_picture {
+    width: 317.94px;
+    height: 256px;
+    background-position: center center;
+    background-size: 100% auto;
+}
+.first_line_figcaption {
+    font-size: 16px;
+    padding-top: 1%;
+    color: #1D1D1D;
+}
+.second_line_figcaption {
+    color: #626262;
+    font-size: 14px;
+    padding-top: 1%;
+}
+.third_line_figcaption {
+    font-size: 13px;
+    padding-top: 1%;
+    color: #1D1D1D;
+}
+.restorani_four_six {
+    display: flex;
+    padding-top: 3%;
+    margin: 0 10%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.restorani_eight_nine {
+    display: flex;
+    padding-top: 2%;
+    margin: 0 10%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer{
+background:#262626;
+margin-top: 5%;
+min-width: 100%;
+min-height: 750px;
+}
+
+.logo2{
+    font-family: 'Archivo Narrow', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 800;
+    font-size: 28px;
+    padding-top: 5%;
+    border-bottom: 2px solid rgb(196, 196, 196);
+    margin: 0 10%; 
+}
+
+.green_text2{
+    color:#57AD56;
+    font-family: 'Archivo Narrow', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 800;
+}
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+  }
+  
+  #myInput {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myInput:focus {outline: 3px solid #ddd;}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+li{
+    list-style-type: none;
+}
+
+.div_one{
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-top: 2%;
+}
+
+.list_one{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;   
+}
+
+.text2{
+    padding: 10% 5% 5% 0;
+}
+
+.div_two{
+    display: inline-flex;
+}
+
+.list_two{
+    font-family: 'Archivo Narrow', sans-serif;
+    line-height: 15px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);    
+}
+
+.lishka{
+    margin: 20px 0;
+}
+
+.Main_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.div_three{
+    padding-right: 20%;
+    display: inline-flex;
+}
+
+.list_three{
+    font-family: 'Archivo Narrow', sans-serif;
+    line-height: 15px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);    
+}
+
+.hr{
+    max-width: 80%;
+    padding-left: 10%;
+}
+
+.iphone-android{
+    display: flex;
+    justify-content: center;
+    padding: 5% 5% 5% 5%;
+    
+}
+.iphon{
+    margin: 0 5%;
+}
+
+.andr{
+    margin: 0 5%;
+}
+
+.the-end{
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+    
+}
+
+.cards{
+    display: flex;
+    padding: 3% 10% 0 10%;  
+}
+
+@media screen and (max-width: 1255px) {
+   
+    .restoran_picture {
+        width:200.94px;
+        height: 150px;
+        background-position: center center;
+        background-size: 100% auto;}
+}
+
+@media screen and (max-width: 950px) {
+   
+    .restorani_odin_tree {
+        display: flex;
+        padding-top: 2%;
+        margin: 0 10%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .first_restoran {
+        display: inline-flex;
+        
+    }
+    .second_restoran {
+        display: inline-flex;
+    }
+    .third_restoran {
+        display: inline-flex;
+    }
+    .restoran_picture {
+        width: 180px;
+        height: 100px;
+        background-position: center center;
+        background-size: 100% auto;
+    }
+    .first_line_figcaption {
+        font-size: 16px;
+        padding-top: 1%;
+        color: #1D1D1D;
+    }
+    .second_line_figcaption {
+        color: #626262;
+        font-size: 14px;
+        padding-top: 1%;
+    }
+    .third_line_figcaption {
+        font-size: 13px;
+        padding-top: 1%;
+        color: #1D1D1D;
+    }
+    .restorani_four_six {
+        display: flex;
+        padding-top: 3%;
+        margin: 0 10%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .restorani_eight_nine {
+        display: flex;
+        padding-top: 2%;
+        margin: 0 10%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }}
